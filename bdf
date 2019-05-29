@@ -1,0 +1,25 @@
+#!/usr/bin/env tclsh
+
+package provide bdf 1.0
+
+namespace eval bdf {
+  namespace export create 
+  namespace ensemble create
+  
+  proc create {name definition} {
+    foreach command 
+  }
+  
+  proc glyph {name definition} {
+    
+  }
+  
+  proc overlay {name defintion} {
+  }
+  
+  # combinatino of two glyh and overlay
+  proc composition {name definition} {
+  }
+  
+  proc encode {
+}
